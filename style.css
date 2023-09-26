@@ -90,5 +90,38 @@ ul li a{
 }
 /* Hero Section ends */
 /* Bottom images section starts */
-
+.images-container{
+  display: flex;
+  margin-top: 25px;
+  width: 640px;
+  justify-content: space-between;
+}
 /* Bottom images section ends */
+
+/* Elements under images section starts */
+.slider-elements{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 640px;
+}
+.arrows img{
+  cursor: pointer;
+}
+.slide-number{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.slide-number hr{
+  width: 170px;
+  height: 2px;
+  background-color: #000;
+}
+.slide-number p{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+/* Elements under images section ends */
