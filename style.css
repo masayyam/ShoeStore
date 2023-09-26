@@ -9,15 +9,17 @@ body{
   background-color: #EBEBEB;
 }
 .container{
-  width: 1440px;
+  width: 1200px;
   margin: 0 auto;
-  
 }
 /* NavBar starts */
 nav{
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
+}
+.logo{
+  cursor: pointer;
 }
 ul li{
   list-style: none;
@@ -47,8 +49,46 @@ ul li a{
 .menu-icons img{
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
 .menu-items li a{
   text-transform: uppercase;
 }
 /* NavBar ends */
+/* Hero Section starts */
+.hero-container{
+  display: flex;
+}
+.hero-image{
+  margin-top: 150px;
+  flex: 1;
+}
+.hero-text{
+  margin-left: 25px;
+  margin-top: 180px;
+}
+.hero-text hr{
+  width: 170px;
+  height: 3px;
+  background-color: #000;
+}
+.hero-text p{
+  margin-top: 25px;
+  font-size: 18px;
+  width: 500px;
+  line-height: 25px;
+}
+.btn-shop{
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent;
+  border: 2px solid #000;
+  width: 150px;
+  cursor: pointer;
+}
+/* Hero Section ends */
+/* Bottom images section starts */
+
+/* Bottom images section ends */
