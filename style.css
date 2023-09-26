@@ -6,4 +6,49 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: #EBEBEB;
 }
+.container{
+  width: 1440px;
+  margin: 0 auto;
+  
+}
+/* NavBar starts */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+ul li a{
+  color: #000;
+  text-decoration: none;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+.menu-items{
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  width: 500px;
+}
+.menu-icons{
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  align-self: center;
+}
+.menu-icons img{
+  height: 20px;
+  width: 20px;
+}
+.menu-items li a{
+  text-transform: uppercase;
+}
+/* NavBar ends */
