@@ -106,7 +106,7 @@ ul li a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 640px;
+  width: 1200px;
 }
 .arrows img{
   cursor: pointer;
@@ -125,6 +125,11 @@ ul li a{
   font-size: 12px;
   font-weight: 700;
 }
-
-
 /* Elements under images section ends */
+/* Social media icons starts */
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Social media icons ends */
