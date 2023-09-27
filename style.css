@@ -50,9 +50,16 @@ ul li a{
   height: 20px;
   width: 20px;
   cursor: pointer;
+  transition: transform .2s;
+}
+.menu-icons img:hover{
+  transform: scale(1.2);
 }
 .menu-items li a{
   text-transform: uppercase;
+}
+.menu-items li a:hover{
+  font-weight: 700;
 }
 /* NavBar ends */
 /* Hero Section starts */
@@ -62,6 +69,7 @@ ul li a{
 .hero-image{
   margin-top: 150px;
   flex: 1;
+  cursor: pointer;
 }
 .hero-text{
   margin-left: 25px;
@@ -87,6 +95,9 @@ ul li a{
   border: 2px solid #000;
   width: 150px;
   cursor: pointer;
+}
+.btn-shop:hover{
+  background-color: #fff;
 }
 /* Hero Section ends */
 /* Bottom images section starts */
