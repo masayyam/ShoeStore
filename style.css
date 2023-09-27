@@ -96,6 +96,9 @@ ul li a{
   width: 640px;
   justify-content: space-between;
 }
+.images-container img{
+  cursor: pointer;
+}
 /* Bottom images section ends */
 
 /* Elements under images section starts */
