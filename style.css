@@ -106,7 +106,7 @@ ul li a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1200px;
+  /* width: 640px; */
 }
 .arrows img{
   cursor: pointer;
@@ -115,11 +115,13 @@ ul li a{
   display: flex;
   align-items: center;
   gap: 10px;
+  padding-left: 20px;
 }
 .slide-number hr{
   width: 170px;
   height: 2px;
   background-color: #000;
+  /* padding-left: 400px; */
 }
 .slide-number p{
   font-size: 12px;
@@ -129,7 +131,12 @@ ul li a{
 /* Social media icons starts */
 .social-icons{
   display: flex;
+  /* width: 560px; */
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.social-icons img{
+  cursor: pointer;
 }
 /* Social media icons ends */
